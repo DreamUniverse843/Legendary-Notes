@@ -2,27 +2,13 @@
 sidebar: false
 ---
 
-# Hello VuePress
+# Hello Legendary-Notes
 
 ::: warning 提示
 请在右上角选择学科以开始阅读。
 :::
 
-数学公式测试
+## 这是什么？
 
-$$\sqrt{ab} \le \frac{a+b}{2}$$
-
-::: tip 演示部分
-
-假设 $y >= 0$ , 而 $[\log x]$ 表示 $\log x$ 的整数部分, 设:
-
-$$\Phi (y) = \frac {1} {2 \pi i} \int_{2 - i \infty}^{2 + i \infty} \frac {y^{\omega} \mathrm{d} \omega} {\omega \left(1 + \frac {\omega} {(\log x)^{1.1}}\right)^{[ \log x ] + 1}}, x > 1$$
-
-显见， 当 $0 <= y <= 1$ 时， 有 $\Phi(y) = 0$. 对于所有 $y >= 0$, 则 $\Phi(y)$ 是一个非减函数.
-
-当 $\log x>= 10^4$ 及 $y>= e^{2{(\log x)}^{-0.1}}$ 时， 则有:
-
-$$1 - x^{- 0.1} <= \Phi (y) <= 1$$
-
-:::
+这是一个集合了许多学科的笔记库（尽管更多是给自己用的，如果能帮到你，也可以看看喔）
 

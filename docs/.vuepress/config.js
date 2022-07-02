@@ -3,6 +3,11 @@ module.exports = {
     description : 'Legendary-Notes',
     evergreen : true,
     base : '/Legendary-Notes/',
+    head: [
+        ['link', { rel: 'icon', href: '/logo.png' }],
+        ['script', { src: '/SakuraFalls.js'}],
+        ['/script']
+      ],
     locales: {
         '/':{
             lang : 'zh-CN',
@@ -50,6 +55,7 @@ module.exports = {
             ],
             '/history/optional-1/':[
                 'lesson1',
+                'lesson2',
             ],
             '/':[
                 '',
