@@ -10,7 +10,7 @@ module.exports = {
         }
     },
     themeConfig :{
-        repo : 'DreamCraft-Tech/DreamCraft-Docs',
+        repo : 'DreamUniverse843/Legendary-Notes',
         docsBranch : 'main',
         docsDir : 'docs',
         editLinks : true,
