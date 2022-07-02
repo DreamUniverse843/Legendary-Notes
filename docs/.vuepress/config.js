@@ -21,7 +21,6 @@ module.exports = {
                 docsDir : 'docs',
                 editLinkText : '在 Github 上提交更改',
                 lastUpdated : '最后更新',
-                sidebar:'auto',
                 nav:[
                     {
                         text:'学科选择',
@@ -41,7 +40,15 @@ module.exports = {
                 editLinkText : 'Commit Changes on Github',
                 lastUpdated : 'Last updated on'
             }
-        }
+        },
+        sidebar:{
+            '/maths/':[
+                'Module1'
+            ],
+            '/':[
+                ''
+            ]
+        },
     },
     plugins: [
         [
