@@ -1,0 +1,14 @@
+{
+  "name": "io.github.dreamuniverse843.legendary",
+  "version": "1.0.0",
+  "description": "A documentation about self-studying.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-mathjax": "^1.2.8"
+  }
+}
