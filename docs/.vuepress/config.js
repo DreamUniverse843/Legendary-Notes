@@ -11,7 +11,7 @@ module.exports = {
     },
     themeConfig :{
         repo : 'DreamCraft-Tech/DreamCraft-Docs',
-        docsBranch : 'master',
+        docsBranch : 'main',
         docsDir : 'docs',
         editLinks : true,
         locales :{
