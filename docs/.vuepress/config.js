@@ -2,7 +2,7 @@ module.exports = {
     title : 'Legendary-Notes',
     description : 'Legendary-Notes',
     evergreen : true,
-    base : '/',
+    base : '/Legendary-Notes/',
     locales: {
         '/':{
             lang : 'zh-CN',
