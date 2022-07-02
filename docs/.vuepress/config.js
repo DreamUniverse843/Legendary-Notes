@@ -28,7 +28,10 @@ module.exports = {
                         items:[
                             { text:'数学',link:'/maths/'},
                             { text:'语文',link:'/chinese/'},
-                            { text:'英语',link:'/english/'}
+                            { text:'英语',link:'/english/'},
+                            { text: '历史', items: [
+                                { text: '选择性必修一' , link:'/history/optional-1/'},
+                            ] },
                         ]
                     }
                 ]
@@ -43,11 +46,14 @@ module.exports = {
         },
         sidebar:{
             '/maths/':[
-                'Module1'
+                'Module1',
+            ],
+            '/history/optional-1/':[
+                'lesson1',
             ],
             '/':[
-                ''
-            ]
+                '',
+            ],
         },
     },
     plugins: [
