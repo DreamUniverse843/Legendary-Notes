@@ -21,23 +21,13 @@ module.exports = {
                 docsDir : 'docs',
                 editLinkText : '在 Github 上提交更改',
                 lastUpdated : '最后更新',
-                sidebar:{
-                    'mirrors': [
-                        '/mirrors/introduction',
-                    ],
-                    'launcher': [
-                        '/launcher/introduction',
-                    ],
-                    '/': [
-                        '/introduction',
-                    ]
-                },
+                sidebar:'auto',
                 nav:[
                     {
                         text:'学科选择',
                         ariaLabel:'Subjects Menu',
                         items:[
-                            { text:'数学',link:'/math/'},
+                            { text:'数学',link:'/maths/'},
                             { text:'语文',link:'/chinese/'},
                             { text:'英语',link:'/english/'}
                         ]
