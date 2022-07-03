@@ -34,6 +34,7 @@ module.exports = {
                             { text:'英语',link:'/english/'},
                             { text: '历史', items: [
                                 { text: '选择性必修一' , link:'/history/optional-1/'},
+                                { text: '选择性必修二' , link:'/history/optional-2/'},
                             ] },
                         ]
                     }
