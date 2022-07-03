@@ -4,6 +4,10 @@ sidebar: false
 
 # Hello Legendary-Notes
 
+::: danger 更新说明
+文档随个人进度及需要按需更新，不保证更新周期。
+:::
+
 ::: warning 提示
 请在右上角选择学科以开始阅读。
 :::
