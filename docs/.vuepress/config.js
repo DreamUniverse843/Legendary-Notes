@@ -35,6 +35,7 @@ module.exports = {
                             { text: '历史', items: [
                                 { text: '选择性必修一' , link:'/history/optional-1/'},
                                 { text: '选择性必修二' , link:'/history/optional-2/'},
+                                { text: '选择性必修三' , link:'/history/optional-3/'},
                             ] },
                         ]
                     }
@@ -88,6 +89,19 @@ module.exports = {
                 'lesson13',
                 'lesson14',
                 'lesson15',
+            ],
+            '/history/optional-3/':[
+                'lesson1',
+                'lesson2',
+                'lesson3',
+                'lesson4',
+                'lesson5',
+                'lesson6',
+                'lesson7',
+                'lesson8',
+                'lesson9',
+                'lesson10',
+                'lesson11',
             ],
             '/':[
                 '',
