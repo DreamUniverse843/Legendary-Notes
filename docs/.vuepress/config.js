@@ -102,6 +102,7 @@ module.exports = {
                 'lesson9',
                 'lesson10',
                 'lesson11',
+                'lesson12',
             ],
             '/':[
                 '',
