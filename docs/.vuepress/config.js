@@ -52,6 +52,8 @@ module.exports = {
         sidebar:{
             '/maths/':[
                 'Module1',
+                'Module16',
+                'Module18',
             ],
             '/history/optional-1/':[
                 'lesson1',
