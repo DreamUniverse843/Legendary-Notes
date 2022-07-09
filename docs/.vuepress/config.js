@@ -111,6 +111,7 @@ module.exports = {
                 'lesson15',
             ],
             '/chinese/':[
+                'gushiwenyan',
                 '2022-06-08',
                 '2022-07-09',
             ],
