@@ -53,6 +53,7 @@ module.exports = {
             '/maths/':[
                 'Module1',
                 'Module16',
+                'Module17',
                 'Module18',
             ],
             '/history/optional-1/':[
