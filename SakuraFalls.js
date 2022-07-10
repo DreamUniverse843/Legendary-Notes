@@ -15,7 +15,7 @@ window.onload = function()
  Sakura.prototype.draw = function (cxt) {
    cxt.save();
    //这个数值是花瓣大小,电脑端网页 40 效果最好
-   let xc = 5 * this.s;
+   let xc = 15 * this.s;
    cxt.translate(this.x, this.y);
    cxt.rotate(this.r);
    cxt.drawImage(img, 0, 0, xc, xc)
