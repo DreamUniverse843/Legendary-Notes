@@ -63,6 +63,7 @@ module.exports = {
             ],
             '/politics/optional-1/':[
                 'lesson1',
+                'lesson2',
             ],
             '/history/optional-1/':[
                 'lesson1',
