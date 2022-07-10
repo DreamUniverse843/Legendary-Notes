@@ -18,6 +18,7 @@ module.exports = {
         docsBranch : 'main',
         docsDir : 'docs',
         editLinks : true,
+        sidebarDepth :3,
         locales :{
             '/':{
                 selectText : '选择语言',
@@ -33,6 +34,9 @@ module.exports = {
                             { text:'数学',link:'/maths/'},
                             { text:'语文',link:'/chinese/'},
                             { text:'英语',link:'/english/'},
+                            { text:'政治', items:[
+                                { text: '选择性必修一', link:'/politics/optional-1/'},
+                            ]},
                             { text: '历史', items: [
                                 { text: '选择性必修一' , link:'/history/optional-1/'},
                                 { text: '选择性必修二' , link:'/history/optional-2/'},
@@ -56,6 +60,9 @@ module.exports = {
                 'Module16',
                 'Module17',
                 'Module18',
+            ],
+            '/politics/optional-1/':[
+                'lesson1',
             ],
             '/history/optional-1/':[
                 'lesson1',
@@ -131,5 +138,9 @@ module.exports = {
             },
           },
         ],
-      ]
+      ],
+    markdown: {
+        toc: { includeLevel: [2, 3, 4] },
+        extractHeaders: [ 'h2', 'h3', 'h4' ],
+      },
   }

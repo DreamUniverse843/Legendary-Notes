@@ -1,35 +1,16 @@
 ---
-sidebar: false
+home: true
+heroImage: /logo.png
+heroText: Legendary-Notes
+tagline: 各科笔记的高效集合，由 VuePress 驱动
+actionText: 快速开始阅读 →
+actionLink: /home
+features:
+- title: 简洁至上
+  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于阅读。
+- title: Vue 驱动
+  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
+- title: 高性能
+  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+footer: Copyright © 2018-present by DreamUniverse843
 ---
-
-# Hello Legendary-Notes
-
-::: danger 更新说明
-
-文档随个人进度及需要按需更新，不保证更新周期。
-
-:::
-
-::: warning 提示
-
-请在右上角（如果手机访问，请按左上角）选择学科及对应章节以开始阅读。
-
-:::
-
-## 这是什么？
-
-这是一个集合了许多学科的笔记库（尽管更多是给自己用的，如果能帮到你，也可以看看喔）
-
-::: details 如果希望提交文档...
-
-由于文档构建在 Github Pages 上，且文科属性较强，为避免某些<strong>别有用心</strong>之人冲烂仓库，仓库只能以 Pull Requests 方法提交。
-
-请您事先了解以下内容：
-
-[VuePress 说明文档](https://vuepress.vuejs.org/zh/)
-
-[Markdown 语法入门](https://markdown.com.cn/basic-syntax/)
-
-另外，熟悉 Github 的提交流程亦有必要。
-
-:::
