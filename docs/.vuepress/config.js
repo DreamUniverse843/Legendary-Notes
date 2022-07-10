@@ -5,6 +5,7 @@ module.exports = {
     base : '/Legendary-Notes/',
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
+        ['script', { src: '/SakuraFalls.js'}],
       ],
     locales: {
         '/':{
