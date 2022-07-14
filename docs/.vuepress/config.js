@@ -5,7 +5,8 @@ module.exports = {
     base : '/Legendary-Notes/',
     head: [
         ['link', { rel: 'icon', href: '/logo.png' }],
-        ['script', { src: '/SakuraFalls.js'}],
+        ['script', { id:'SakuraJS' , src: '/SakuraFalls.js'}],
+        ['script', { id:'JQueryJS' , src: '/jquery.js'}],
       ],
     locales: {
         '/':{
@@ -38,12 +39,13 @@ module.exports = {
                                 { text: '选择性必修一', link:'/politics/optional-1/'},
                             ]},
                             { text: '历史', items: [
+                                { text: '学科复习索引' , link:'/history/summary/'},
                                 { text: '选择性必修一' , link:'/history/optional-1/'},
                                 { text: '选择性必修二' , link:'/history/optional-2/'},
                                 { text: '选择性必修三' , link:'/history/optional-3/'},
                             ] },
                         ]
-                    }
+                    },
                 ]
             },
             '/en/':{
@@ -64,6 +66,9 @@ module.exports = {
             '/politics/optional-1/':[
                 'lesson1',
                 'lesson2',
+            ],
+            '/history/summary/':[
+                'lesson1',
             ],
             '/history/optional-1/':[
                 'lesson1',
