@@ -44,9 +44,9 @@ module.exports = {
                                 { text: '选择性必修二' , link:'/history/optional-2/'},
                                 { text: '选择性必修三' , link:'/history/optional-3/'},
                             ] },
-                        ]
+                        ],
                     },
-                ]
+                ],
             },
             '/en/':{
                 selectText : 'Language',
@@ -69,6 +69,7 @@ module.exports = {
             ],
             '/history/summary/':[
                 'lesson1',
+                'lesson2',
             ],
             '/history/optional-1/':[
                 'lesson1',
